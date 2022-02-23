@@ -1,0 +1,1 @@
+let header__burger=document.querySelector(".header__burger"),header_menu=document.querySelector(".header__menu"),back=document.querySelector("body");header__burger.onclick=function(){header__burger.classList.toggle("active"),header_menu.classList.toggle("active"),back.classList.toggle("lock")};

@@ -1,0 +1,1 @@
+let pageId=document.querySelector("body").getAttribute("data-id-page"),navItem=document.querySelector(`[data-id-nav=${pageId}]`);pageId===navItem.getAttribute("data-id-nav")&&navItem.classList.add("active");
